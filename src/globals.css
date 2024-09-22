@@ -76,3 +76,13 @@
 		padding: 2rem;
 	}
 }
+
+@layer components {
+	.button {
+		@apply py-3 px-6 bg-ceramic md:w-fit text-white text-center rounded-full hover:bg-ceramic/95 hover:-translate-y-1 transition-transform;
+	}
+
+	.input {
+		@apply w-full py-4 px-4 bg-white border border-gray-300 shadow-md rounded-md focus:outline-none focus:ring-1 focus:ring-ceramic focus:border-ceramic;
+	}
+}

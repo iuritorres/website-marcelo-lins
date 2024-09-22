@@ -35,10 +35,7 @@ export function Header() {
 						realizar sua transformação. Sua nova versão começa aqui!
 					</p>
 
-					<a
-						href="#formulário-de-contato"
-						className="py-3 px-6 bg-ceramic md:w-fit text-white text-center rounded-full hover:bg-ceramic/95 hover:-translate-y-1 transition-transform"
-					>
+					<a href="#formulário-de-contato" className="button">
 						Agende sua consulta
 					</a>
 				</div>
