@@ -11,10 +11,10 @@ export function FAQ() {
 
 		if (answer.style.display === 'none' || answer.style.display === '') {
 			answer.style.display = 'block';
-			arrow.style.transform = 'rotate(0deg)';
+			arrow.style.transform = 'rotate(-180deg)';
 		} else {
 			answer.style.display = 'none';
-			arrow.style.transform = 'rotate(-180deg)';
+			arrow.style.transform = 'rotate(0deg)';
 		}
 	}
 
