@@ -1,7 +1,13 @@
+import { FAQ, Header, Location, WhatsAppFloatIcon } from './components';
+
 export function App() {
-  return (
-    <main>
-      <h1 className='text-3xl font-bold underline'>Dr. Marcelo Lins</h1>
-    </main>
-  );
+	return (
+		<main>
+			<Header />
+			<FAQ />
+			<Location />
+
+			<WhatsAppFloatIcon />
+		</main>
+	);
 }
